@@ -316,6 +316,11 @@ header{
     text-align: center;
     width: 200px;
 }
+.some_fact_div div:hover{
+    transform: scale(1.2);
+    background-color: aquamarine;
+    color: #FFFFFF;
+}
 .some_fact_div div img{
     width: 45px;
     height: 45px;
@@ -332,7 +337,12 @@ header{
         justify-content: space-around;
         flex-direction: column;
         margin-left: 120px;
-        gap: 10px;
+        gap: 25px;
+    }
+    .some_fact_div div:hover{
+        transform: scale(1.2);
+        background-color: aquamarine;
+        color: #FFFFFF;
     }
 
 }
